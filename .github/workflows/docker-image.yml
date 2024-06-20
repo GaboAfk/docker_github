@@ -14,4 +14,4 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.CR_PAT }}
       - name: Push Docker Img
-        run: docker push ghcr.io/${{ github.repository }}/github_image_selfcreate
+        run: docker push ghcr.io/gaboafk/github_image_selfcreate
