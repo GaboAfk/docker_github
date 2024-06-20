@@ -2,4 +2,4 @@ FROM alpine
 
 RUN apk add --no-cache curl
 
-COPY config.txt /app/config.txt
+COPY config.txt config.txt
